@@ -14,10 +14,10 @@ const Navbar = () => {
   const [industriesOpen, setIndustriesOpen] = useState(false);
 
   return (
-    <section className="w-full sticky top-28 xl:top-12 bg-primary z-[999]">
+    <section className="w-full sticky top-28 xl:top-12 bg-primary z-999">
       <nav>
         {/* ✅ Header (Logo + Menu) */}
-        <div className="flex justify-between items-center py-3 px-3 xl:px-6 xl:py-0">
+        <div className="flex justify-between items-center py-3 px-3 xl:px-4 xl:py-0">
           {/* Logo */}
           <Link
             href="/"
