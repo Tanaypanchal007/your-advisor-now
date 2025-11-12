@@ -5,7 +5,7 @@ import { CiLocationOn } from "react-icons/ci";
 
 const TopNavbar = () => {
   return (
-    <section className="bg-secondary py-3 pl-4 text-white sticky top-0 ">
+    <section className="bg-secondary py-3 pl-4 text-white sticky top-0 z-999">
       <div className="flex gap-2 xl:gap-4 flex-col xl:flex-row justify-center items-center xl:justify-normal">
         <div className="flex gap-2 items-center ">
           <FiPhoneCall />
