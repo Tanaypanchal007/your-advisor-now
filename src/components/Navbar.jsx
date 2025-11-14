@@ -14,7 +14,7 @@ const Navbar = () => {
   const [industriesOpen, setIndustriesOpen] = useState(false);
 
   return (
-    <section className="w-full sticky top-28 xl:top-12 bg-primary z-999">
+    <section className="w-full sticky top-28 xl:top-12 bg-primary z-999 shadow-xl">
       <nav>
         {/* ✅ Header (Logo + Menu) */}
         <div className="flex justify-between items-center py-3 px-3 xl:px-4 xl:py-0">
@@ -174,7 +174,7 @@ const Navbar = () => {
             <li className="hover:bg-secondary-navbar py-4 px-2  transition-all duration-300 cursor-pointer">
               <Link href="/blogs">Blogs</Link>
             </li>
-            <button className="bg-secondary text-white m-2 px-2 rounded">
+            <button className="bg-secondary text-white m-2 px-3 rounded-full">
               <Link href="/contact">Contact Us</Link>
             </button>
           </ul>
