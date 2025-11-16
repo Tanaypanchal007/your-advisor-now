@@ -4,7 +4,7 @@ import footerImg from "../public/Images/footer-img.jpg";
 
 const Footer = () => {
   return (
-    <footer className="relative text-white pt-10 mt-10 overflow-hidden z-998">
+    <footer className="relative text-white pt-10 overflow-hidden z-998">
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center"

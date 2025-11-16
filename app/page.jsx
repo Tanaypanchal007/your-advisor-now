@@ -11,6 +11,7 @@ import Facts from "./facts/page";
 import { FaRegUser } from "react-icons/fa";
 import Counter from "../components/Counter";
 import IndustriesTabsHomePage from "../components/IndustriesTabsHomePage";
+import HeroSection from "../components/HeroSection";
 
 export default function Home() {
   const whyUsData = [
@@ -54,7 +55,8 @@ export default function Home() {
 
   return (
     <>
-      <section className="bg-bg-primary py-16">
+      <section className="bg-bg-primary">
+        <HeroSection />
         {/* About Section */}
         <div className="max-w-7xl mx-auto px-4 flex flex-col xl:flex-row items-center gap-12">
           {/* Left Image */}
@@ -139,8 +141,8 @@ export default function Home() {
         >
           <div className=" text-center mb-10 ">
             <h1 className="text-2xl font-bold inline-block relative text-white">
-              Our Services
-              <span className="block h-0.5 w-12 bg-white mx-auto mt-1"></span>
+              Interesting Facts
+              {/* <span className="block h-0.5 w-12 bg-white mx-auto mt-1"></span> */}
             </h1>
           </div>
           <div className="grid grid-cols-2 xl:grid-cols-4 gap-10 text-center text-white">
