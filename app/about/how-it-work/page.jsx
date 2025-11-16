@@ -3,7 +3,11 @@ import StartingHeaderImage from "../../../components/StartingHeaderImage";
 import React from "react";
 import Image from "next/image";
 import img from "../../../public/Images/footer-img.jpg";
-import sendDocImage from "../../../public/Images/how-it-work-img-1.png";
+import stepsImage1 from "../../../public/Images/illustration/how-it-work-img-1.svg";
+import stepsImage2 from "../../../public/Images/illustration/how-it-work-img-2.svg";
+import stepsImage3 from "../../../public/Images/illustration/how-it-work-img-3.svg";
+import stepsImage4 from "../../../public/Images/illustration/how-it-work-img-4.svg";
+import stepsImage5 from "../../../public/Images/illustration/how-it-work-img-5.svg";
 
 const howItWork = () => {
   // Dummy data (you can replace with real content later)
@@ -12,31 +16,31 @@ const howItWork = () => {
       id: 1,
       title: "1. Send Documents",
       desc: "Send us the source documents.",
-      image: sendDocImage,
+      image: stepsImage1,
     },
     {
       id: 2,
       title: "2. Access System",
       desc: "Confiance accesses your accounting system on your server or on the cloud",
-      image: sendDocImage,
+      image: stepsImage2,
     },
     {
       id: 3,
       title: "3. Accounting is done",
       desc: "Books are updated in 1-2 business days",
-      image: sendDocImage,
+      image: stepsImage3,
     },
     {
       id: 4,
       title: "4. Finalize the Financials",
       desc: "Confiance makes vendor payments, sends client statements/invoices and finalizes the financials on monthly basis",
-      image: sendDocImage,
+      image: stepsImage4,
     },
     {
       id: 5,
       title: "5. Review",
       desc: "Review of Financials with the decision maker on monthly basis",
-      image: sendDocImage,
+      image: stepsImage5,
     },
   ];
 
