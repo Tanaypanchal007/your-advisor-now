@@ -1,8 +1,8 @@
-import StartingHeaderImage from "@/components/StartingHeaderImage";
+import StartingHeaderImage from "../../components/StartingHeaderImage";
 import React from "react";
-import whyUsImage from "../../../public/Images/why-us.jpg";
+import whyUsImage from "../../public/Images/why-us.jpg";
 import Image from "next/image";
-import whyChooseUs from "../../../public/Images/illustration/why-choose-us.svg";
+import whyChooseUs from "../../public/Images/illustration/why-choose-us.svg";
 
 import { PiChartLineUpLight, PiUserFocusLight } from "react-icons/pi";
 import { FaHandHoldingUsd } from "react-icons/fa";

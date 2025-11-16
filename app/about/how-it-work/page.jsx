@@ -1,8 +1,9 @@
-import StartingHeaderImage from "@/components/StartingHeaderImage";
+import StartingHeaderImage from "../../../components/StartingHeaderImage";
+
 import React from "react";
 import Image from "next/image";
-import img from "../../../../public/Images/footer-img.jpg";
-import sendDocImage from "../../../../public/Images/how-it-work-img-1.png";
+import img from "../../../public/Images/footer-img.jpg";
+import sendDocImage from "../../../public/Images/how-it-work-img-1.png";
 
 const howItWork = () => {
   // Dummy data (you can replace with real content later)

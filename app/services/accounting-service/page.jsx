@@ -1,6 +1,6 @@
-import StartingHeaderImage from "@/components/StartingHeaderImage";
+import StartingHeaderImage from "../../../components/StartingHeaderImage";
 import React from "react";
-import accountingImage from "../../../../public/Images/accounting-service.jpg";
+import accountingImage from "../../../public/Images/accounting-service.jpg";
 
 const AccountingServices = () => {
   return (

@@ -1,6 +1,6 @@
-import StartingHeaderImage from "@/components/StartingHeaderImage";
+import StartingHeaderImage from "../../../components/StartingHeaderImage";
 import React from "react";
-import img from "../../../../public/Images/our-team.jpg";
+import img from "../../../public/Images/our-team.jpg";
 
 const ourTeam = () => {
   return (

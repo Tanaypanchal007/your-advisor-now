@@ -1,14 +1,15 @@
 "use client";
 
-import StartingHeaderImage from "@/components/StartingHeaderImage";
+import StartingHeaderImage from "../../components/StartingHeaderImage";
 import React from "react";
 import { FaRegUser } from "react-icons/fa";
-import Counter from "@/components/Counter";
+import Counter from "../../components/Counter";
+import factsImage from "../../public/Images/facts.jpg";
 
 const Facts = () => {
   return (
     <>
-      <StartingHeaderImage title="Interesting Facts" />
+      <StartingHeaderImage imageSrc={factsImage} title="Interesting Facts" />
 
       <section className="bg-primary py-10 px-6">
         <div className="grid grid-cols-2 xl:grid-cols-4 gap-10 text-center text-secondary">

@@ -1,10 +1,10 @@
 "use client";
 
-import StartingHeaderImage from "@/components/StartingHeaderImage";
+import StartingHeaderImage from "../../components/StartingHeaderImage";
 import React from "react";
 import Image from "next/image";
-import contactUs from "../../../public/Images/contact-us.jpg";
-import contactImage from "../../../public/Images/illustration/Contact us-bro.svg";
+import contactUs from "../../public/Images/contact-us.jpg";
+import contactImage from "../../public/Images/illustration/Contact us-bro.svg";
 
 const Contact = () => {
   return (

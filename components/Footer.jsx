@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import footerImg from "../../public/Images/footer-img.jpg";
+import footerImg from "../public/Images/footer-img.jpg";
 
 const Footer = () => {
   return (
