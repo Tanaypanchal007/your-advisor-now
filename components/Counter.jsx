@@ -20,7 +20,7 @@ const Counter = ({ end, duration = 2000 }) => {
     return () => clearInterval(timer);
   }, [end, duration]);
 
-  return <span>{count}+</span>;
+  return <span>{count}</span>;
 };
 
 export default Counter;

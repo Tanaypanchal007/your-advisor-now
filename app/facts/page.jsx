@@ -5,6 +5,9 @@ import React from "react";
 import { FaRegUser } from "react-icons/fa";
 import Counter from "../../components/Counter";
 import factsImage from "../../public/Images/facts.jpg";
+import { IoDocumentTextOutline, IoDocumentsOutline } from "react-icons/io5";
+import { FaHandHoldingUsd } from "react-icons/fa";
+import { MdGroups } from "react-icons/md";
 
 const Facts = () => {
   return (
@@ -24,7 +27,7 @@ const Facts = () => {
 
           {/* FACT 2 */}
           <div className="flex flex-col items-center gap-2">
-            <FaRegUser className="text-4xl" />
+            <IoDocumentTextOutline className="text-4xl" />
             <h1 className="text-4xl font-bold">
               <Counter end={1000} />
             </h1>
@@ -33,7 +36,7 @@ const Facts = () => {
 
           {/* FACT 3 */}
           <div className="flex flex-col items-center gap-2">
-            <FaRegUser className="text-4xl" />
+            <IoDocumentsOutline className="text-4xl" />
             <h1 className="text-4xl font-bold">
               <Counter end={1700} />
             </h1>
@@ -42,7 +45,7 @@ const Facts = () => {
 
           {/* FACT 4 */}
           <div className="flex flex-col items-center gap-2">
-            <FaRegUser className="text-4xl" />
+            <FaHandHoldingUsd className="text-4xl" />
             <h1 className="text-4xl font-bold">
               <Counter end={30} />
             </h1>
@@ -51,9 +54,9 @@ const Facts = () => {
 
           {/* FACT 4 */}
           <div className="flex flex-col items-center gap-2">
-            <FaRegUser className="text-4xl" />
+            <MdGroups className="text-4xl" />
             <h1 className="text-4xl font-bold">
-              <Counter end={99} />
+              <Counter end={99} />%
             </h1>
             <p className="text-lg">Client retention</p>
           </div>

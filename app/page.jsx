@@ -13,6 +13,10 @@ import Counter from "../components/Counter";
 import IndustriesTabsHomePage from "../components/IndustriesTabsHomePage";
 import HeroSection from "../components/HeroSection";
 
+/* Facts Imports */
+import { IoDocumentTextOutline, IoDocumentsOutline } from "react-icons/io5";
+import { FaHandHoldingUsd } from "react-icons/fa";
+
 export default function Home() {
   const whyUsData = [
     {
@@ -157,7 +161,7 @@ export default function Home() {
 
             {/* FACT 2 */}
             <div className="flex flex-col items-center gap-2">
-              <FaRegUser className="text-4xl" />
+              <IoDocumentTextOutline className="text-4xl" />
               <h1 className="text-4xl font-bold">
                 <Counter end={1000} />
               </h1>
@@ -166,7 +170,7 @@ export default function Home() {
 
             {/* FACT 3 */}
             <div className="flex flex-col items-center gap-2">
-              <FaRegUser className="text-4xl" />
+              <IoDocumentsOutline className="text-4xl" />
               <h1 className="text-4xl font-bold">
                 <Counter end={1700} />
               </h1>
@@ -175,7 +179,7 @@ export default function Home() {
 
             {/* FACT 4 */}
             <div className="flex flex-col items-center gap-2">
-              <FaRegUser className="text-4xl" />
+              <FaHandHoldingUsd className="text-4xl" />
               <h1 className="text-4xl font-bold">
                 <Counter end={30} />
               </h1>
