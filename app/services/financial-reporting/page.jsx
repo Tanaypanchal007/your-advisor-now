@@ -1,5 +1,6 @@
 import React from "react";
 import StartingHeaderImage from "../../../components/StartingHeaderImage";
+import financialReportingImage from "../../../public/Images/financial-reporting.jpg";
 
 const financialReporting = () => {
   const financialData = [
@@ -157,13 +158,15 @@ const financialReporting = () => {
 
   return (
     <>
-      <StartingHeaderImage title="Financial Reporting & Analytics" />
+      <StartingHeaderImage
+        title="Financial Reporting & Analytics"
+        imageSrc={financialReportingImage}
+      />
       <section className="px-4 xl:px-20 py-10 space-y-7 bg-primary">
         {financialData.map((item, index) => (
           <div key={index} className="space-y-4">
             {/* Title section */}
             <div className="flex items-start gap-3">
-              <span className="h-[35px] w-1 bg-secondary inline-block"></span>
               <h2 className="text-2xl font-semibold mt-1">{item.title}</h2>
             </div>
 
