@@ -6,6 +6,8 @@ import { FaBars } from "react-icons/fa6";
 import { IoClose } from "react-icons/io5";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import { FiPhoneCall } from "react-icons/fi";
+import Image from "next/image";
+import Logo from "../public/Images/Logos/YourAdviorNow.png";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -19,12 +21,12 @@ const Navbar = () => {
         {/* ✅ Header (Logo + Menu) */}
         <div className="flex justify-between items-center py-3 px-3 xl:px-4 xl:py-0">
           {/* Logo */}
-          <Link
-            href="/"
-            className="text-2xl xl:text-xl font-bold text-secondary"
-          >
-            Your Advisor Now
-          </Link>
+          <Image
+            src={Logo}
+            alt="Your Advisor Now Logo"
+            className="w-44 h-auto ml-3 cursor-pointer" // Adjust size here
+            priority
+          />
 
           {/* Desktop Menu */}
           <ul className="hidden lg:flex gap-1 text-[17px]">
